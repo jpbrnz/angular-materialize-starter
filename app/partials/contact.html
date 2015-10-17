@@ -1,0 +1,95 @@
+<!-- Page Content -->
+<div class="container">
+  <div class="section">
+
+    <div class="row">
+
+        <div class="col s12">
+            <h1 class="page-header">Contact us -
+                <small>We'd Love to Hear From You!</small>
+            </h1>
+        </div>
+
+        <div class="col s12">
+            <!-- Embedded Google Map using an iframe - to select your location find it on Google maps and paste the link as the iframe src. If you want to use the Google Maps API instead then have at it! -->
+            <iframe width="100%" height="400px" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
+                    src="http://maps.google.com/maps?hl=en&amp;ie=UTF8&amp;ll=37.0625,-95.677068&amp;spn=56.506174,79.013672&amp;t=m&amp;z=4&amp;output=embed"></iframe>
+        </div>
+
+    </div>
+    <!-- /.row -->
+
+    <div class="row">
+
+        <div class="col m8">
+            <h3>Let's Get In Touch!</h3>
+
+            <p>Lid est laborum dolo rumes fugats untras. Etharums ser quidem rerum facilis dolores nemis omnis fugats
+                vitaes nemo minima rerums unsers sadips amets. Sed ut perspiciatis unde omnis iste natus error sit
+                voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore
+                veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+
+                <form method='post' id='jbForm' role='form'>
+                    <div class='input-field col s9 offset-s1'>
+                      <i class='fa fa-user prefix blue-grey-text'></i>
+                      <input id='cfName' name='name' data-parsley-error-message='Name required' minlength='2' type='text' class="required" value="" />
+                      <label for='cfName' >Full Name</label>
+                    </div>
+                    <div class='input-field col s9 offset-s1'>
+                      <i class='fa fa-phone prefix blue-grey-text'></i>
+                      <input id='cfPhone' name='phone' type='text' data-parsley-error-message='Valid phone required' data-parsley-pattern='/\(?([0-9]{3})\)?([ .-]?)([0-9]{3})\2([0-9]{4})/' class="required" value="" />
+                      <label for='cfPhone' >Phone</label>
+                    </div>
+                    <div class='input-field col s9 offset-s1'>
+                      <i class='fa fa-briefcase prefix blue-grey-text'></i>
+                      <input id='cfCompany' type='text' name='company' data-parsley-error-message='Valid company required' class="required" value="" />
+                      <label for='cfCompany' >Company</label>
+                    </div>
+                    <div class='input-field col s9 offset-s1'>
+                      <i class='fa fa-envelope prefix blue-grey-text'></i>
+                      <input id='cfEmail' type='text' data-parsley-type="email" name='email' data-parsley-error-message='Valid email required' class="required" value="" />
+                      <label for='cfEmail' >Email</label>
+                    </div>
+                    <div class='input-field col s9 offset-s1'>
+                      <i class='fa fa-edit prefix blue-grey-text'></i>
+                      <textarea id='cfMessage' name='message' class="materialize-textarea required" data-parsley-error-message='Message required' minlength='5' length='320'></textarea>
+                      <label for='cfMessage' >Message</label>
+                    </div>
+                    <div class='input-field col s9 offset-s1'>
+                    <button class='btn waves-effect waves-light blue-grey right' type='submit' id='submitButton' name='action'>Submit
+                    </button>
+                    </div>
+                </form>
+        </div>
+
+        <div class="col m4">
+            <h4>NG Business</h4>
+            <h5>AngularJS Materialize Template</h5>
+
+            <p>
+                9999 744th Street N.<br>
+                Material design, CA 54321<br>
+            </p>
+
+            <p><i class="fa fa-phone"></i> <abbr title="Phone">P</abbr>: (123) 987-7654</p>
+
+            <p><i class="fa fa-envelope-o"></i> <abbr title="Email">E</abbr>: <a
+                    href="mailto:feedback@startbootstrap.com">info@youremail.com</a></p>
+
+            <p><i class="fa fa-clock-o"></i> <abbr title="Hours">H</abbr>: Monday - Friday: 9:00 AM to 5:00 PM</p>
+            <ul class="list-unstyled list-inline list-social-icons">
+                <li class="tooltip-social facebook-link tooltipped" data-position="bottom" data-delay="50" data-tooltip="Facebook"><a href="#facebook-page" title="Facebook"><i
+                        class="fa fa-facebook-square fa-2x"></i></a></li>
+                <li class="tooltip-social linkedin-link tooltipped" data-position="bottom" data-delay="50" data-tooltip="LinkedIn"><a href="#linkedin-company-page" title="LinkedIn"><i
+                        class="fa fa-linkedin-square fa-2x"></i></a></li>
+                <li class="tooltip-social twitter-link tooltipped" data-position="bottom" data-delay="50" data-tooltip="Twitter"><a href="#twitter-profile" title="Twitter"><i
+                        class="fa fa-twitter-square fa-2x"></i></a></li>
+                <li class="tooltip-social google-plus-link tooltipped" data-position="bottom" data-delay="50" data-tooltip="Google+"><a href="#google-plus-page" title="Google+"><i
+                        class="fa fa-google-plus-square fa-2x"></i></a></li>
+            </ul>
+        </div>
+
+    </div>
+    <!-- /.row -->
+</div>
+</div><!-- /.container -->
