@@ -1,6 +1,6 @@
 # Web package using AngularJS, jQuery, Materialize, Font-Awesome, ParsleyJS.
 
-Creating a simple standard template that can be adapted and used in a number of ways. The contact form is validated on the front end using parsleyjs. The framework is Materialize, and AngularJS for our routes and actions.
+Creating a simple template that can be adapted and used in a number of ways. The contact form is validated on the front end using parsleyjs. The framework is Materialize, and AngularJS for our routes and views. This is just a base starting point, enjoy!
 
 #### Installation
 
@@ -27,4 +27,4 @@ To review the dist build
 gulp serve:dist
 ```
 
-#### This is a simple project for quickly building and launching micro sites using Materialize
+#### This is a simple project for quickly building and launching micro sites
