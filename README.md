@@ -2,6 +2,21 @@
 
 Creating a simple template that can be adapted and used in a number of ways. The contact form is validated on the front end using parsleyjs. The framework is Materialize, and AngularJS for our routes and views. This is just a base starting point, enjoy!
 
+### Features
+
+![Logo](docs/assets/gulp.png)
+![Logo](docs/assets/angular.png)
+![Logo](docs/assets/materialdesign.png)
+![Logo](docs/assets/bower.png)
+![Logo](docs/assets/webpack.png)
+![Logo](docs/assets/karma.png)
+
+![Logo](docs/assets/browsersync.png)
+![Logo](docs/assets/jasmine.png)
+![Logo](docs/assets/babel.png)
+![Logo](docs/assets/sass.png)
+
+
 #### Installation
 
 Type the following to install package dependencies
