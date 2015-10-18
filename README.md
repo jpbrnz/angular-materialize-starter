@@ -15,8 +15,13 @@ Creating a simple template that can be adapted and used in a number of ways. The
 
 
 #### Installation
+Clone repo (or download zip from GitHub)
+```
+git clone https://github.com/jpbrnz/angular-materialize-starter.git MyApp
+cd MyApp
+```
 
-Type the following to install package dependencies
+Install package dependencies
 
 ```    
 npm install
