@@ -24,8 +24,7 @@ cd MyApp
 Install package dependencies
 
 ```    
-npm install
-bower install
+npm install && bower install
 ```
 To review while developing, updating type
 
