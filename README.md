@@ -6,11 +6,8 @@ Creating a simple template that can be adapted and used in a number of ways. The
 
 ![Logo](docs/assets/gulp.png)
 ![Logo](docs/assets/angular.png)
-![Logo](docs/assets/materialdesign.png)
 ![Logo](docs/assets/bower.png)
-![Logo](docs/assets/webpack.png)
 ![Logo](docs/assets/karma.png)
-
 ![Logo](docs/assets/browsersync.png)
 ![Logo](docs/assets/jasmine.png)
 ![Logo](docs/assets/babel.png)
